@@ -1,0 +1,34 @@
+services:
+
+  bot:
+    build: .
+    container_name: versions-bot
+    restart: always
+    volumes:
+      - .:/code
+      - ./data/data.yaml:/code/data/data.yaml
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - API_ID=$$\{bot.api_id\}
+      - API_HASH=$$\{bot.api_hash\}
+      - TOKEN=$$\{bot.token\}
+    network_mode: host
+    depends_on:
+      - db
+    stdin_open: true
+    tty: true
+
+  db:
+    image: postgres
+    container_name: versions-db
+    restart: always
+    environment:
+      - POSTGRES_USER=$$\{db.postgres_user\}
+      - POSTGRES_PASSWORD=$$\{db.postgres_password\}
+      - POSTGRES_DB=$$\{db.postgres_db\}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    network_mode: host
+
+volumes:
+  postgres_data:

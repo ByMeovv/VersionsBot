@@ -1,0 +1,334 @@
+2025-02-09 19:38:22,769 - logs.logger - [32mINFO[0m - > Start UserBot
+2025-02-09 19:38:48,243 - logs.logger - [32mINFO[0m - User ID: 6820351323 using add_handler
+2025-02-09 19:39:08,416 - logs.logger - [32mINFO[0m - User ID: 6820351323 using add_handler
+2025-02-09 19:39:08,417 - logs.logger - [32mINFO[0m - Version: 18090, Client Name: ddnet
+2025-02-09 19:40:01,050 - logs.logger - [32mINFO[0m - User ID: 698170941 using add_handler
+2025-02-09 19:40:24,585 - logs.logger - [32mINFO[0m - > Stop UserBot
+2025-02-09 19:40:26,556 - logs.logger - [32mINFO[0m - > Start UserBot
+2025-02-09 19:45:39,866 - logs.logger - [32mINFO[0m - User ID: 6820351323 using add_handler
+2025-02-09 19:45:39,868 - logs.logger - [32mINFO[0m - Version: 18090, Client Name: ddnet
+2025-02-09 19:52:45,633 - logs.logger - [32mINFO[0m - > Stop UserBot
+2025-02-09 19:52:49,356 - logs.logger - [32mINFO[0m - > Start UserBot
+2025-02-09 19:53:35,748 - logs.logger - [32mINFO[0m - User ID: 6820351323 using add_handler
+2025-02-09 19:53:36,053 - logs.logger - [31mERROR[0m - Invalid arguments. Usage: /add <version (int)> <name_client (str)>
+2025-02-09 19:55:27,858 - logs.logger - [32mINFO[0m - > Stop UserBot
+2025-02-09 19:55:31,046 - logs.logger - [32mINFO[0m - > Start UserBot
+2025-02-09 19:55:38,467 - logs.logger - [32mINFO[0m - User ID: 6820351323 using add_handler
+2025-02-09 19:55:40,979 - logs.logger - [31mERROR[0m - Invalid arguments. Usage: /add <version (int)> <name_client (str)>
+2025-02-09 19:55:59,436 - logs.logger - [32mINFO[0m - > Stop UserBot
+2025-02-09 19:56:01,017 - logs.logger - [32mINFO[0m - > Start UserBot
+2025-02-09 19:56:34,798 - logs.logger - [32mINFO[0m - > Stop UserBot
+2025-02-09 19:57:08,840 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-09 19:57:14,164 - logs.logger - [32mINFO[0m - User ID: 6820351323 using add_handler
+2025-02-09 19:57:14,675 - logs.logger - [31mERROR[0m - Invalid arguments. Usage: /add <version (int)> <name_client (str)>
+2025-02-09 19:57:20,967 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-09 19:57:52,464 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-09 19:57:57,654 - logs.logger - [32mINFO[0m - User ID: 6820351323 using add_handler
+2025-02-09 19:57:58,073 - logs.logger - [31mERROR[0m - Invalid arguments. Usage: /add <version (int)> <name_client (str)>
+2025-02-09 19:58:01,269 - logs.logger - [32mINFO[0m - User ID: 6820351323 using add_handler
+2025-02-09 19:58:01,482 - logs.logger - [31mERROR[0m - Invalid arguments. Usage: /add <version (int)> <name_client (str)>
+2025-02-09 19:58:02,394 - logs.logger - [32mINFO[0m - User ID: 6820351323 using add_handler
+2025-02-09 19:58:02,655 - logs.logger - [31mERROR[0m - Invalid arguments. Usage: /add <version (int)> <name_client (str)>
+2025-02-09 19:58:13,058 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-09 19:58:14,700 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-09 19:59:10,324 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-09 19:59:11,894 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-09 19:59:12,775 - logs.logger - [32mINFO[0m - User ID: 6820351323 using add_handler
+2025-02-09 19:59:13,103 - logs.logger - [31mERROR[0m - Invalid arguments. Usage: /add <version (int)> <name_client (str)>
+2025-02-09 19:59:59,008 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-09 20:00:02,226 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-09 20:00:04,253 - logs.logger - [32mINFO[0m - User ID: 6820351323 using add_handler
+2025-02-09 20:00:04,427 - logs.logger - [31mERROR[0m - Invalid arguments. Usage: /add <version (int)> <name_client (str)>
+2025-02-09 20:00:13,711 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-09 20:23:14,903 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-09 20:23:49,773 - logs.logger - [32mINFO[0m - User ID: 6820351323 using add_handler
+2025-02-09 20:23:49,975 - logs.logger - [31mERROR[0m - Invalid arguments. Usage: /add <version (int)> <name_client (str)>
+2025-02-09 20:24:18,812 - logs.logger - [32mINFO[0m - User ID: 6820351323 using add_handler
+2025-02-09 20:24:18,813 - logs.logger - [32mINFO[0m - Version: 18090, Client Name: ddnet
+2025-02-09 20:24:23,871 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-09 22:30:53,365 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-09 22:31:12,728 - logs.logger - [32mINFO[0m - User ID: 6820351323 using add_handler
+2025-02-09 22:31:12,730 - logs.logger - [32mINFO[0m - Version: 18090, Client Name: ddnet
+2025-02-09 22:32:42,479 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-09 22:32:43,974 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-09 22:32:46,082 - logs.logger - [32mINFO[0m - User ID: 6820351323 using add_handler
+2025-02-09 22:32:46,083 - logs.logger - [32mINFO[0m - Version: 18090, Client Name: ddnet
+2025-02-09 22:33:38,165 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-09 22:33:39,675 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-09 22:33:42,404 - logs.logger - [32mINFO[0m - User ID: 6820351323 using add_handler
+2025-02-09 22:33:42,406 - logs.logger - [32mINFO[0m - Version: 18090, Client Name: ddnet
+2025-02-09 22:36:09,191 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-09 22:36:10,886 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-09 22:36:11,943 - logs.logger - [32mINFO[0m - User ID: 6820351323 using add_handler
+2025-02-09 22:36:11,945 - logs.logger - [32mINFO[0m - Version: 18090, Client Name: ddnet
+2025-02-09 22:36:11,964 - logs.logger - [32mINFO[0m - Client with Version: 18090, Client Name: ddnet added to the database successfully.
+2025-02-09 22:36:22,266 - logs.logger - [32mINFO[0m - User ID: 6820351323 using add_handler
+2025-02-09 22:36:22,268 - logs.logger - [32mINFO[0m - Version: 18090, Client Name: ddnet
+2025-02-09 22:36:22,270 - logs.logger - [32mINFO[0m - Client with Version: 18090, Client Name: ddnet already exists in the database.
+2025-02-09 22:37:03,776 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-09 22:37:05,311 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-09 22:37:06,283 - logs.logger - [32mINFO[0m - User ID: 6820351323 using add_handler
+2025-02-09 22:37:06,286 - logs.logger - [32mINFO[0m - Version: 18090, Client Name: ddnet
+2025-02-09 22:37:06,297 - logs.logger - [33mWARNING[0m - Client with Version: 18090, Client Name: ddnet already exists in the database.
+2025-02-09 22:37:33,743 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-09 22:37:35,264 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-09 22:37:39,871 - logs.logger - [32mINFO[0m - User ID: 6820351323 using add_handler
+2025-02-09 22:37:39,873 - logs.logger - [32mINFO[0m - Version: 18090, Client Name: ddnet
+2025-02-09 22:37:39,883 - logs.logger - [33mWARNING[0m - Client with Version: 18090, Client Name: ddnet already exists in the database.
+2025-02-09 22:38:00,224 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-09 22:38:18,419 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-09 22:38:27,281 - logs.logger - [32mINFO[0m - User ID: 6820351323 using rm_handler
+2025-02-09 22:38:33,433 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-09 22:38:49,894 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-09 22:38:54,828 - logs.logger - [32mINFO[0m - User ID: 6820351323 using rm_handler
+2025-02-09 22:38:54,847 - logs.logger - [32mINFO[0m - Deleted client with Version: 18090, Client Name: ddnet
+2025-02-09 22:39:02,131 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-09 22:39:23,704 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-09 22:39:34,559 - logs.logger - [32mINFO[0m - User ID: 6820351323 using add_handler
+2025-02-09 22:39:34,561 - logs.logger - [32mINFO[0m - Version: 18090, Client Name: ddnet
+2025-02-09 22:39:34,582 - logs.logger - [34mDEBUG[0m - Client with Version: 18090, Client Name: ddnet added to the database successfully.
+2025-02-09 22:39:42,238 - logs.logger - [32mINFO[0m - User ID: 6820351323 using add_handler
+2025-02-09 22:39:42,238 - logs.logger - [32mINFO[0m - Version: 18090, Client Name: krx
+2025-02-09 22:39:42,245 - logs.logger - [34mDEBUG[0m - Client with Version: 18090, Client Name: krx added to the database successfully.
+2025-02-09 22:39:51,047 - logs.logger - [32mINFO[0m - User ID: 6820351323 using add_handler
+2025-02-09 22:39:51,048 - logs.logger - [32mINFO[0m - Version: 18090, Client Name: cactus
+2025-02-09 22:39:51,055 - logs.logger - [34mDEBUG[0m - Client with Version: 18090, Client Name: cactus added to the database successfully.
+2025-02-09 22:39:56,943 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-09 22:49:32,500 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-09 22:49:58,756 - logs.logger - [32mINFO[0m - User ID: 698170941 using add_handler
+2025-02-09 22:49:58,829 - logs.logger - [31mERROR[0m - Invalid arguments. Usage: /add <version (int)> <name_client (str)>
+2025-02-09 22:50:14,986 - logs.logger - [32mINFO[0m - User ID: 698170941 using add_handler
+2025-02-09 22:50:17,433 - logs.logger - [31mERROR[0m - Invalid arguments. Usage: /add <version (int)> <name_client (str)>
+2025-02-09 22:50:27,673 - logs.logger - [32mINFO[0m - User ID: 698170941 using add_handler
+2025-02-09 22:50:27,675 - logs.logger - [32mINFO[0m - Version: 18080, Client Name: krx
+2025-02-09 22:50:27,701 - logs.logger - [34mDEBUG[0m - Client with Version: 18080, Client Name: krx added to the database successfully.
+2025-02-09 22:50:32,863 - logs.logger - [32mINFO[0m - User ID: 698170941 using add_handler
+2025-02-09 22:50:32,940 - logs.logger - [31mERROR[0m - Invalid arguments. Usage: /add <version (int)> <name_client (str)>
+2025-02-09 22:50:50,747 - logs.logger - [32mINFO[0m - User ID: 698170941 using add_handler
+2025-02-09 22:50:50,748 - logs.logger - [32mINFO[0m - Version: 18080, Client Name: ddnet
+2025-02-09 22:50:50,757 - logs.logger - [34mDEBUG[0m - Client with Version: 18080, Client Name: ddnet added to the database successfully.
+2025-02-09 22:50:55,219 - logs.logger - [32mINFO[0m - User ID: 698170941 using add_handler
+2025-02-09 22:50:55,220 - logs.logger - [32mINFO[0m - Version: 18082, Client Name: ddnet
+2025-02-09 22:50:55,229 - logs.logger - [34mDEBUG[0m - Client with Version: 18082, Client Name: ddnet added to the database successfully.
+2025-02-10 06:43:44,168 - logs.logger - [32mINFO[0m - User ID: 6820351323 using add_handler
+2025-02-10 06:43:44,242 - logs.logger - [31mERROR[0m - Invalid arguments. Usage: /add <version (int)> <name_client (str)>
+2025-02-10 06:43:54,293 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 20:48:03,131 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 20:49:46,562 - logs.logger - [32mINFO[0m - User ID: 6820351323 using add_handler
+2025-02-10 20:49:46,663 - logs.logger - [31mERROR[0m - Invalid arguments. Usage: /add <version (int)> <name_client (str)>
+2025-02-10 20:49:46,663 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 20:49:46,764 - logs.logger - [31mERROR[0m - Invalid arguments. Usage: /get <version (int)> <name_client (str)>
+2025-02-10 20:49:58,609 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 20:50:25,707 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 20:50:31,834 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 20:50:31,925 - logs.logger - [31mERROR[0m - Invalid arguments. Usage: /get <version (int)> <name_client (str)>
+2025-02-10 20:50:39,002 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 20:50:39,095 - logs.logger - [31mERROR[0m - Invalid arguments. Usage: /get <version (int)> <name_client (str)>
+2025-02-10 20:50:54,362 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 21:09:48,077 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 21:10:37,718 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 21:10:37,823 - logs.logger - [31mERROR[0m - Invalid arguments. Usage: /get [version (int)] [name_client (str)]
+2025-02-10 21:10:58,909 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 21:10:58,997 - logs.logger - [31mERROR[0m - Invalid arguments. Usage: /get [version (int)] [name_client (str)]
+2025-02-10 21:11:09,457 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 21:12:49,902 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 21:12:57,182 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 21:12:57,184 - logs.logger - [32mINFO[0m - Version: 18090, Client Name: ddnet
+2025-02-10 21:12:57,198 - logs.logger - [34mDEBUG[0m - Found 1 records in the database.
+2025-02-10 21:13:29,030 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 21:14:02,015 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 21:14:07,572 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 21:14:07,574 - logs.logger - [32mINFO[0m - Version: 18090, Client Name: ddnet
+2025-02-10 21:14:07,582 - logs.logger - [34mDEBUG[0m - Found 1 records in the database.
+2025-02-10 21:14:39,246 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 21:17:22,095 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 21:17:29,171 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 21:17:29,308 - logs.logger - [31mERROR[0m - Invalid arguments. Usage: /get [version (int)] [name_client (str)]
+2025-02-10 21:18:29,551 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 21:18:33,997 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 21:18:38,677 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 21:18:38,779 - logs.logger - [31mERROR[0m - Invalid arguments. Usage: /get <version (int)> <name_client (str)>
+2025-02-10 21:22:23,902 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 21:22:25,737 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 21:22:28,838 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 21:22:28,840 - logs.logger - [32mINFO[0m - Search string: 18090
+2025-02-10 21:22:28,848 - logs.logger - [34mDEBUG[0m - Found 3 records in the database.
+2025-02-10 21:23:15,693 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 21:23:15,694 - logs.logger - [32mINFO[0m - Search string: 1
+2025-02-10 21:23:15,696 - logs.logger - [34mDEBUG[0m - Found 0 records in the database.
+2025-02-10 21:23:15,696 - logs.logger - [33mWARNING[0m - No records found in the database with given arguments.
+2025-02-10 21:26:34,526 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 21:26:35,843 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 21:26:47,188 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 21:26:47,191 - logs.logger - [32mINFO[0m - Search string: 18090
+2025-02-10 21:26:47,201 - logs.logger - [34mDEBUG[0m - Found 3 records in the database.
+2025-02-10 21:27:41,803 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 21:27:44,330 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 21:27:49,760 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 21:27:49,762 - logs.logger - [32mINFO[0m - Search string: 18090 ddnet
+2025-02-10 21:27:49,772 - logs.logger - [34mDEBUG[0m - Found 1 records in the database.
+2025-02-10 21:31:11,136 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 21:31:15,074 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 21:31:15,076 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 21:31:15,077 - logs.logger - [32mINFO[0m - Search string: 18090
+2025-02-10 21:31:15,083 - logs.logger - [34mDEBUG[0m - Found 3 records in the database.
+2025-02-10 21:35:17,068 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 21:35:18,756 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 21:35:20,320 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 21:35:20,322 - logs.logger - [32mINFO[0m - Search string: 18090
+2025-02-10 21:35:20,331 - logs.logger - [34mDEBUG[0m - Found 3 records in the database.
+2025-02-10 21:36:23,150 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 21:36:31,952 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 21:36:32,934 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 21:36:32,936 - logs.logger - [32mINFO[0m - Search string: 18090
+2025-02-10 21:36:32,945 - logs.logger - [34mDEBUG[0m - Found 3 records in the database.
+2025-02-10 21:38:05,230 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 21:38:07,083 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 21:38:12,764 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 21:38:12,766 - logs.logger - [32mINFO[0m - Search string: 18090
+2025-02-10 21:38:12,771 - logs.logger - [34mDEBUG[0m - Found 3 records in the database.
+2025-02-10 21:44:59,776 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 21:44:59,848 - logs.logger - [31mERROR[0m - Invalid arguments. Usage: /get <version (int)> <name_client (str)>
+2025-02-10 21:52:31,398 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 21:52:32,854 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 21:53:10,066 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 21:53:10,067 - logs.logger - [32mINFO[0m - Search string: ddnet
+2025-02-10 21:53:10,072 - logs.logger - [34mDEBUG[0m - Found 6 records in the database.
+2025-02-10 21:53:32,348 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 21:53:32,350 - logs.logger - [32mINFO[0m - Search string: krx
+2025-02-10 21:53:32,352 - logs.logger - [34mDEBUG[0m - Found 6 records in the database.
+2025-02-10 21:57:46,608 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 21:57:48,302 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 21:57:53,206 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 21:57:53,207 - logs.logger - [32mINFO[0m - Search string: krx
+2025-02-10 21:57:53,216 - logs.logger - [34mDEBUG[0m - Found 2 records in the database.
+2025-02-10 21:58:26,164 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 21:58:27,651 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 21:58:31,405 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 21:58:31,407 - logs.logger - [32mINFO[0m - Search string: krx
+2025-02-10 21:58:31,416 - logs.logger - [34mDEBUG[0m - Found 2 records in the database.
+2025-02-10 21:59:05,671 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 21:59:07,153 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 21:59:12,559 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 21:59:12,561 - logs.logger - [32mINFO[0m - Search string: ddnet
+2025-02-10 21:59:12,570 - logs.logger - [34mDEBUG[0m - Found 3 records in the database.
+2025-02-10 22:03:12,843 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 22:03:14,331 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 22:03:17,091 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 22:03:17,093 - logs.logger - [32mINFO[0m - Search string: ddnet
+2025-02-10 22:03:17,103 - logs.logger - [34mDEBUG[0m - Found 3 records in the database.
+2025-02-10 22:03:27,687 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 22:04:11,356 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 22:04:13,513 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 22:04:13,515 - logs.logger - [32mINFO[0m - Search string: ddnet
+2025-02-10 22:04:13,523 - logs.logger - [34mDEBUG[0m - Found 3 records in the database.
+2025-02-10 22:07:53,713 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 22:07:55,334 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 22:07:56,853 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 22:07:56,855 - logs.logger - [32mINFO[0m - Search string: ddnet
+2025-02-10 22:07:56,865 - logs.logger - [34mDEBUG[0m - Found 3 records in the database.
+2025-02-10 22:09:11,492 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 22:09:13,849 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 22:09:16,823 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 22:09:16,824 - logs.logger - [32mINFO[0m - Search string: ddnet
+2025-02-10 22:09:16,829 - logs.logger - [34mDEBUG[0m - Found 3 records in the database.
+2025-02-10 22:09:50,514 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 22:09:50,515 - logs.logger - [32mINFO[0m - Search string: 18090
+2025-02-10 22:09:50,519 - logs.logger - [34mDEBUG[0m - Found 3 records in the database.
+2025-02-10 22:10:31,506 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 22:16:32,181 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 22:16:34,384 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 22:16:34,386 - logs.logger - [32mINFO[0m - Search string: None
+2025-02-10 22:16:34,394 - logs.logger - [34mDEBUG[0m - Found 6 records in the database.
+2025-02-10 22:16:51,399 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 22:16:51,400 - logs.logger - [32mINFO[0m - Search string: ddnet
+2025-02-10 22:16:51,402 - logs.logger - [34mDEBUG[0m - Found 3 records in the database.
+2025-02-10 22:17:00,581 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 22:17:00,582 - logs.logger - [32mINFO[0m - Search string: 18090
+2025-02-10 22:17:00,586 - logs.logger - [34mDEBUG[0m - Found 3 records in the database.
+2025-02-10 22:19:05,529 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 22:19:06,939 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 22:19:10,853 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 22:19:10,855 - logs.logger - [32mINFO[0m - Search string: ddnet
+2025-02-10 22:19:10,864 - logs.logger - [34mDEBUG[0m - Found 3 records in the database.
+2025-02-10 22:30:13,058 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 22:30:15,661 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 22:30:20,060 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 22:30:20,062 - logs.logger - [32mINFO[0m - Version: ddnet, Client name: None
+2025-02-10 22:31:23,450 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 22:37:40,633 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 22:37:53,266 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 22:37:53,268 - logs.logger - [32mINFO[0m - Version: ddnet, Client name: None
+2025-02-10 22:38:00,647 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 22:38:00,649 - logs.logger - [32mINFO[0m - Version: 18090, Client name: None
+2025-02-10 22:38:00,657 - logs.logger - [34mDEBUG[0m - Found 3 records in the database.
+2025-02-10 22:38:17,837 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 22:38:17,838 - logs.logger - [32mINFO[0m - Version: None, Client name: None
+2025-02-10 22:41:18,633 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 22:41:20,658 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 22:41:23,995 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 22:45:56,529 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 22:45:57,505 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 22:48:18,534 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 22:48:20,536 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 22:48:57,732 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 22:49:03,874 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 22:50:45,770 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 22:50:47,562 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 22:50:48,733 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 22:51:00,073 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 22:51:06,345 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 22:51:15,972 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 22:53:26,406 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 22:53:28,175 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 22:53:30,423 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 22:53:42,713 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 22:55:37,141 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 22:55:38,013 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 22:55:42,815 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 22:55:59,808 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 22:56:13,042 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 22:56:23,239 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 22:56:24,931 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 22:56:25,508 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 22:56:39,698 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 22:56:41,464 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 22:56:48,774 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 22:57:41,850 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 22:57:43,594 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 22:57:45,583 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 22:58:04,812 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 22:58:06,548 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 22:58:08,133 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 22:58:37,727 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 23:02:24,263 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 23:02:26,036 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 23:02:27,717 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 23:03:19,565 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 23:03:21,281 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 23:03:22,348 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 23:03:35,911 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-10 23:05:45,959 - logs.logger - [32mINFO[0m - User ID: 698170941 using get_handler
+2025-02-10 23:05:51,896 - logs.logger - [32mINFO[0m - User ID: 698170941 using get_handler
+2025-02-10 23:08:56,973 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-10 23:08:59,799 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-10 23:11:31,247 - logs.logger - [32mINFO[0m - User ID: 698170941 using add_handler
+2025-02-10 23:11:31,387 - logs.logger - [31mERROR[0m - Invalid arguments. Usage: /add <version (int)> <name_client (str)>
+2025-02-10 23:11:37,595 - logs.logger - [32mINFO[0m - User ID: 698170941 using get_handler
+2025-02-10 23:11:50,294 - logs.logger - [32mINFO[0m - User ID: 698170941 using add_handler
+2025-02-10 23:11:50,295 - logs.logger - [32mINFO[0m - Version: 18091, Client Name: ddnet
+2025-02-10 23:11:50,318 - logs.logger - [34mDEBUG[0m - Client with Version: 18091, Client Name: ddnet added to the database successfully.
+2025-02-10 23:11:56,847 - logs.logger - [32mINFO[0m - User ID: 698170941 using add_handler
+2025-02-10 23:11:56,848 - logs.logger - [32mINFO[0m - Version: 18091, Client Name: krx
+2025-02-10 23:11:56,857 - logs.logger - [34mDEBUG[0m - Client with Version: 18091, Client Name: krx added to the database successfully.
+2025-02-10 23:12:01,557 - logs.logger - [32mINFO[0m - User ID: 698170941 using get_handler
+2025-02-11 06:19:15,164 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-11 06:41:04,766 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-11 07:28:31,012 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-11 07:28:57,251 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-11 07:29:14,619 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-11 07:29:16,290 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-11 12:49:25,879 - logs.logger - [32mINFO[0m - User ID: 6820351323 using get_handler
+2025-02-11 13:24:04,154 - logs.logger - [32mINFO[0m - > Stopping Bot
+2025-02-11 19:27:25,677 - logs.logger - [32mINFO[0m - > Starting Bot
+2025-02-11 19:37:47,966 - logs.logger - [32mINFO[0m - > Stopping Bot

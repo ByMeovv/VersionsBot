@@ -1,0 +1,11 @@
+# Игнорировать файлы .pyc
+*.pyc
+
+# Игнорировать папку __pycache__
+__pycache__/
+
+# Игнорировать файлы .session
+*.session
+
+# Игнорировать файл config.yaml
+data/config.yaml
