@@ -1,5 +1,6 @@
-from sqlalchemy.exc import NoResultFound
+from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
+from sqlalchemy import func
 from telethon import events
 
 from logs.logger import log
@@ -24,22 +25,10 @@ class Add:
         self.db_session = db_session
         self.staff_ids: list = Config.get_value('bot')['staff_ids']
 
-    def add_handler(self):
+    def add(self):
 
         @self.client.on(events.NewMessage(pattern=r'^\/(?i:add)(.*)'))
         async def add_handler(msg):
-
-            """
-            Handles the /add command by extracting the version and client name from the message text, and
-            then processes them according to your logic. It interacts with the database and saves the client version.
-
-            Parameters
-            ----------
-
-            :param msg: The Telegram message containing the /add command
-            :type msg: :class:`telethon.tl.custom.message.Message`
-            """
-
             if msg.sender_id not in self.staff_ids:
                 await msg.reply("You don't have permission to use this command.")
                 log.warning(f"User ID: {str(msg.sender_id)} tried to use add_handler but was not in staff_id list")
@@ -58,23 +47,42 @@ class Add:
 
                 log.info(f"Version: {version}, Client Name: {name_client}")
 
-                # Interact with the database and save the client version
-                try:
-                    self.db_session.query(Versions).filter_by(number=version, name=name_client).one()
+                # Check if the record already exists
+                existing_record = self.db_session.query(Versions).filter_by(number=version, name=name_client).first()
+
+                if existing_record:
                     log.warning(f"Client with Version: {version}, Client Name: {name_client} already exists in the database.")
-                except NoResultFound:
+                    await msg.reply(f"Client with Version: {version}, Client Name: {name_client} already exists in the database.")
+                else:
+                    # Add new record
                     client_record = Versions(number=version,
                                              name=name_client,
                                              create_id=msg.sender_id,
                                              create_username=msg.sender.username)
-                    self.db_session.add(client_record)
-                    self.db_session.commit()
-                    self.db_session.refresh(client_record)
-                    log.debug(f"Client with Version: {version}, Client Name: {name_client} added to the database successfully.")
-
-                await msg.reply(f"Client with Version: {version}, Client Name: {name_client} processed successfully.")
+                    try:
+                        self.db_session.add(client_record)
+                        self.db_session.commit()
+                        self.db_session.refresh(client_record)
+                        log.debug(f"Client with Version: {version}, Client Name: {name_client}, added to the database successfully.")
+                        await msg.reply(f"Client with Version: {version}, Client Name: {name_client}, added to the database successfully.")
+                    except IntegrityError:
+                        self.db_session.rollback()
+                        log.error(f"Failed to add client with Version: {version}, Client Name: {name_client}, to the database.")
+                        # Find the next available _id
+                        while True:
+                            _id = self.db_session.query(func.max(Versions._id)).scalar() + 1
+                            client_record._id = _id
+                            try:
+                                self.db_session.add(client_record)
+                                self.db_session.commit()
+                                self.db_session.refresh(client_record)
+                                log.debug(f"Client with Version: {version}, Client Name: {name_client}, added to the database successfully with _id: {_id}.")
+                                await msg.reply(f"Client with Version: {version}, Client Name: {name_client}, added to the database successfully with _id: {_id}.")
+                                break
+                            except IntegrityError:
+                                self.db_session.rollback()
+                                log.error(f"Failed to add client with Version: {version}, Client Name: {name_client}, to the database with _id: {_id}.")
 
             except SystemExit:
                 await msg.reply("Invalid arguments. Usage: <code>/add &lt;version (int)&gt; &lt;name_client (str)&gt;</code>", parse_mode='html')
-
                 log.error("Invalid arguments. Usage: /add <version (int)> <name_client (str)>")

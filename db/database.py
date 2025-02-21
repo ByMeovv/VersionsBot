@@ -1,11 +1,17 @@
+from sqlalchemy.event import listens_for
+from sqlalchemy.exc import DisconnectionError
+from sqlalchemy.exc import PendingRollbackError
+from sqlalchemy.pool import Pool
 from datetime import datetime
 
-from sqlalchemy import create_engine, Column, Integer, String, Text, DateTime, func, BigInteger, VARCHAR
+from sqlalchemy import create_engine, Column, Integer, String, DateTime, BigInteger, VARCHAR
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from data.cfg import Config
 
-DATABASE_URL = f"postgresql://{Config.get_value('db')['postgres_user']}:{Config.get_value('db')['postgres_password']}@{Config.get_value('db')['host_name']}:{Config.get_value('db')['port']}/{Config.get_value('db')['postgres_db']}"
+db_conf = Config.get_value('bot')['db']
+
+DATABASE_URL = f"postgresql://{db_conf['user']}:{db_conf['password']}@{db_conf['host']}:{db_conf['port']}/{db_conf['db']}"
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
@@ -13,6 +19,25 @@ Base = declarative_base()
 
 current_date = datetime.now()
 formatted_date = current_date.strftime("%Y-%m-%d %H:%M:%S")
+
+
+@listens_for(Pool, "checkout")
+def ping_connection(dbapi_connection, connection_record, connection_proxy):
+    """Event listener that pings every new database connection.
+
+    This function will run for each new connection, and will ensure that the
+    connection is still alive.
+
+    If the connection is dead (i.e. the server went down), then a new connection
+    will be attempted.
+    """
+    cursor = dbapi_connection.cursor()
+    try:
+        cursor.execute("SELECT 1")
+    except:
+        # If the connection is dead, then raise a DisconnectionError.
+        raise DisconnectionError()
+    cursor.close()
 
 
 class Versions(Base):
@@ -41,7 +66,6 @@ class Versions(Base):
 
 Base.metadata.create_all(bind=engine)
 
-
 def get_db():
     """
     Yields a database session.
@@ -54,8 +78,24 @@ def get_db():
     >>> with get_db() as db:
     ...     version = db.query(Versions).first()
     """
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
+    while True:
+        db = None
+        try:
+            db = SessionLocal()
+            yield db
+        except DisconnectionError:
+            if db is not None:
+                db.close()
+            continue
+        except PendingRollbackError:
+            if db is not None:
+                db.rollback()
+            continue
+        except Exception as e:
+            if db is not None:
+                db.rollback()
+            raise e
+        finally:
+            if db is not None:
+                db.close()
+        break
