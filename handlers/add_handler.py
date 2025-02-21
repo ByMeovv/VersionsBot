@@ -59,6 +59,7 @@ class Add:
                                              name=name_client,
                                              create_id=msg.sender_id,
                                              create_username=msg.sender.username)
+                    # New tip added to the database
                     try:
                         self.db_session.add(client_record)
                         self.db_session.commit()
